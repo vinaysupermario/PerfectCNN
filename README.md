@@ -35,3 +35,18 @@ _"Great Models are built with even greater **skeletons**"_ --Successful Student
 4. Analysis:
     1. The model is still large, but working.
     2. We see some over-fitting
+
+# Step 3 : Making the Model Lighter
+
+_"They say crying makes the **Heart/Model** lighter"_ --Successful Student
+
+## Target:
+
+1. Make the model lighter
+2. Results:
+    1. Parameters: 10.7k
+    2. Best Train Accuracy: 99.00
+    3. Best Test Accuracy: 98.98
+3. Analysis:
+    1. Good model!
+    2. No over-fitting, model is capable if pushed further
