@@ -49,3 +49,18 @@ Target:
 3. Analysis:
     1. Good model!
     2. No over-fitting, model is capable if pushed further
+
+# CODE 4: The Batch Normalization
+
+_"The great enemy of any totalitarian dataset is **Batch Normalization**"_  --Successful Student
+
+Target:
+
+1. Add Batch-norm to increase model efficiency.
+2. Results:
+    1. Parameters: 10.9k
+    2. Best Train Accuracy: 99.9
+    3. Best Test Accuracy: 99.3
+3. Analysis:
+    1. We have started to see over-fitting now.
+    2. Even if the model is pushed further, it won't be able to get to 99.4
