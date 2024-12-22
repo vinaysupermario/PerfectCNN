@@ -1,7 +1,6 @@
 # CODE 1: The Setup
 
-_"Every **setback** is a failure in getting the **setup** right"_
-    --Successful Student
+_"Every **setback** is a failure in getting the **setup** right"_   --Successful Student
 
 Target:
 
@@ -20,8 +19,7 @@ Target:
 
 # CODE 2: The Skeleton
 
-_"Great Models are built with even greater **skeletons**"_ 
-    --Successful Student
+_"Great Models are built with even greater **skeletons**"_  -Successful Student
 
 Target:
 
@@ -147,7 +145,7 @@ Target:
     1. The model is under-fitting now. This is fine, as we know we have made our training data harder.
     2. The test accuracy is also up, which means our test data had few images that had transformation difference w.r.t. train dataset
 
-CODE 10: Playing Naively with Learning Rates
+# CODE 10: Playing Naively with Learning Rates
 
 _"Stop playing god, that's morgan's job, don't mess naively with **Learning Rates**"_   --Successful Student
 
