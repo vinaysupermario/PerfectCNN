@@ -151,7 +151,7 @@ _"Once your Model is ready, only then apply **Augmentation**"_ --Successful Stud
 
 _"Stop playing god, that's morgan's job, don't mess naively with **Learning Rates**"_   --Successful Student
 
-## arget:
+## Target:
 
 1. The model was under-fitting, so needed to add one more Convolution layer.
 2. Experiment with changing the Learning Rate.
@@ -163,3 +163,22 @@ _"Stop playing god, that's morgan's job, don't mess naively with **Learning Rate
     1. The model is still a bit under-fitting.
     2. We're finally getting test accuracy greater than 99.40% on test results. Consistently Enough.
     3. Finding a good LR schedule is hard.
+
+# Step 11 : Increasing the Receptive Field, and Finding perfect balance on Width vs Depth
+
+_"Discipline is remembering what you want, Designing Models requires discipline, Every step you take must have a purpose, Trying too many things without order or any notes is useless"_   --Successful Student
+
+## Target:
+
+1. Less than 8000 Parameters
+2. Less than or equal to 15 Epochs
+3. 99.4% model accuracy **(this must be consistently shown in your last few epochs, and not a one-time achievement)**
+4. Reduce the Convolution Layer's output channels.
+5. Add a LR Scheduler to revise learning rates after every few epochs.
+4. Result:
+    1. Parameters: 7.9k
+    2. Best Train Accuracy: 97.80
+    3. Best Test Accuracy: 99.44
+5. Analysis:
+    1. The model is still under-fitting signifying more potential to improve.
+    2. The model is giving 99.40% accuracy consistently on 8k params & 15 epochs.
